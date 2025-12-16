@@ -1,7 +1,6 @@
 package io.github.nicol.industrialevolution.items;
 
 import io.github.nicol.industrialevolution.IndustrialEvolution;
-import io.github.nicol.industrialevolution.core.LanguageManager;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -11,18 +10,14 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.Collection;
-import java.util.Random;
 
 /**
  * Handles custom enchantments/effects for Industrial Evolution tools.
  */
 public class ToolEnchantments implements Listener {
 
-    private final IndustrialEvolution plugin;
-    private final Random random = new Random();
-
     public ToolEnchantments(IndustrialEvolution plugin) {
-        this.plugin = plugin;
+        // Enchantments initialized
     }
 
     @EventHandler

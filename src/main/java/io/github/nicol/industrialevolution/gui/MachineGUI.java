@@ -1,9 +1,7 @@
 package io.github.nicol.industrialevolution.gui;
 
-import io.github.nicol.industrialevolution.IndustrialEvolution;
 import io.github.nicol.industrialevolution.core.LanguageManager;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
