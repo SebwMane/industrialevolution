@@ -1,22 +1,6 @@
 package io.github.nicol.industrialevolution.machines;
 
 import io.github.nicol.industrialevolution.core.AbstractProcessingMachine;
-import io.github.nicol.industrialevolution.items.MaterialQuantum;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.Nonnull;
-
-/**
- * Quantum-Assisted Deep Miner: Generates ores from the "void" over time.
- * Acts like a virtual quarry, producing random ores.
- */
-package io.github.nicol.industrialevolution.machines;
-
-import io.github.nicol.industrialevolution.core.AbstractProcessingMachine;
 import io.github.nicol.industrialevolution.core.LanguageManager;
 import io.github.nicol.industrialevolution.items.MaterialQuantum;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
