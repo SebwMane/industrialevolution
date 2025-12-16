@@ -1,0 +1,334 @@
+# Industrial Evolution - English Messages
+# Version: 2.1.0
+
+# ================================
+# General Plugin Messages
+# ================================
+general:
+  prefix: "&8[&bIndustrial Evolution&8]&r "
+  enabled: "&aPlugin enabled!"
+  disabled: "&cPlugin disabled."
+  reload: "&aConfiguration reloaded!"
+  no-permission: "&cYou don't have permission to do this."
+
+# ================================
+# Categories / Eras
+# ================================
+category:
+  quantum-era:
+    name: "&b&lQuantum Era"
+    description: "&7Tier 6 - Advanced quantum technology."
+  singularity-era:
+    name: "&5&lSingularity Era"
+    description: "&7Tier 7 - Harness black hole power."
+  infinity-era:
+    name: "&d&lEthereal Ascension"
+    description: "&7Tier 8 - Transcend reality."
+
+# ================================
+# Machines
+# ================================
+machine:
+  # Common machine GUI elements
+  info-button: "&e❓ &lINFO"
+  energy-display: "&eEnergy: &a{0}&7/&a{1} J"
+  speed-display: "&eSpeed: &a{0}x"
+  recipes-button: "&6📖 &lRECIPES"
+  
+  # ---- Quantum Era Machines ----
+  quantum-miner:
+    name: "&bQuantum-Assisted Deep Miner"
+    description: |
+      &7Mines resources from the quantum void.
+      &7Uses special fuel to determine ore quality.
+      
+      &eFuel Tiers:
+      &8► &7Coal Block → Common ores
+      &8► &aDense Carbon Alloy → Uncommon ores
+      &8► &bEnergized Prismarine → Rare ores
+      &8► &dQuantum Core → Legendary ores
+    lore:
+      - ""
+      - "&7Mines resources from the void."
+      - "&7High energy cost, exponentially faster."
+      - "&eMachine"
+    fuel-required: "&cFuel required to mine!"
+    mining: "&7Mining... Rarity: &a{0}"
+    output-full: "&cOutput is full!"
+    
+  isotopic-centrifuge:
+    name: "&bIsotopic Centrifuge"
+    description: |
+      &7Refines radioactive materials.
+      &7Converts Uranium into Plutonium.
+      
+      &eTips:
+      &8► &7More efficient than standard methods
+      &8► &7Slower but higher yield
+    lore:
+      - ""
+      - "&7Refines Uranium into Plutonium"
+      - "&7More efficient but slower than standard methods."
+      - "&eMachine"
+
+  schematic-builder:
+    name: "&bSchematic Builder"
+    description: |
+      &7Builds structures from blueprints.
+      &7Insert a schematic to begin construction.
+      
+      &eTips:
+      &8► &7Requires materials in adjacent chests
+      &8► &7Builds one block per tick
+    lore:
+      - ""
+      - "&7Builds structures from blueprints."
+      - "&eMachine"
+
+  quantum-storage:
+    name: "&bQuantum Storage"
+    description: |
+      &7Massive digital storage network.
+      &7Stores items in quantum pocket dimensions.
+      
+      &eCapacity: &a2,147,483,647 items per type
+    lore:
+      - ""
+      - "&7Massive storage network."
+      - "&eMachine"
+
+  quantum-flux-condenser:
+    name: "&bQuantum Flux Condenser"
+    description: |
+      &7Generates energy from quantum entropy.
+      &7Produces power passively over time.
+      
+      &eOutput: &a256 J/tick
+    lore:
+      - ""
+      - "&7Generates energy from entropy."
+      - "&eGenerator"
+
+  # ---- Singularity Era Machines ----
+  entropy-dampener:
+    name: "&bEntropy Dampener"
+    description: |
+      &7Cooling system for high-energy machines.
+      &7Required for the Singularity Compressor.
+      
+      &eTips:
+      &8► &7Reduces energy consumption by 30%
+      &8► &7Prevents overheating
+    lore:
+      - ""
+      - "&7Cools down the Singularity Compressor."
+      - "&7Reduces energy cost."
+      - "&eMachine"
+
+  singularity-compressor:
+    name: "&5Singularity Compressor"
+    description: |
+      &7Compresses matter into Singularities.
+      &7Extreme pressure, extreme power.
+      
+      &cWARNING: Requires cooling!
+      &8► &7Add an Entropy Dampener nearby
+      
+      &eRecipes:
+      &8► &7Diamond Block → Unstable Singularity
+      &8► &7Netherite Block → Void Singularity
+    lore:
+      - ""
+      - "&7Compresses matter into Singularities."
+      - "&cRequires cooling."
+      - "&eMachine"
+
+  void-trap:
+    name: "&5Void Trap"
+    description: |
+      &7Pulls nearby mobs into the void.
+      &7Converts mob essence into resources.
+      
+      &eRange: &a5 blocks
+      &eDamage: &c10 HP/second
+    lore:
+      - ""
+      - "&7Pulls nearby mobs into the void."
+      - "&eMachine"
+
+  # ---- Ethereal Ascension Machines ----
+  evolution-altar:
+    name: "&dEvolution Altar"
+    description: |
+      &7Ascend your gear to godly levels.
+      &7Combines Ethereal materials with equipment.
+      
+      &eUpgrades:
+      &8► &7Netherite → Ethereal
+      &8► &7Adds special abilities
+      &8► &7Unbreakable result
+    lore:
+      - ""
+      - "&7Ascend your gear."
+      - "&eEthereal Machine"
+
+  cosmic-forge:
+    name: "&5Cosmic Forge"
+    description: |
+      &7Forges god-tier items from starlight.
+      &7The pinnacle of Industrial Evolution.
+      
+      &cRequires: &eStarlight Essence
+      &8► &7Only generates at night
+      &8► &7Clear sky required
+    lore:
+      - ""
+      - "&7Forges god-tier items."
+      - "&cRequires Starlight."
+      - "&eEthereal Machine"
+
+  cosmic-rectifier:
+    name: "&bCosmic Rectifier"
+    description: |
+      &7Repairs and recharges Ethereal equipment.
+      &7Restores durability and special charges.
+      
+      &eFunctions:
+      &8► &7Repair shattered tools
+      &8► &7Recharge Ethereal armor
+      &8► &7Restore enchantments
+    lore:
+      - ""
+      - "&7Repairs Shattered tools."
+      - "&7Recharges Ethereal Armor."
+      - "&eEthereal Machine"
+
+# ================================
+# Items / Materials
+# ================================
+item:
+  # Quantum Era Materials
+  dense-carbon-alloy:
+    name: "&bDense Carbon Alloy"
+    description: "&7Ultra-compressed carbon structure."
+  energized-prismarine:
+    name: "&bEnergized Prismarine"
+    description: "&7Ocean energy crystallized."
+  quantum-core:
+    name: "&bQuantum Core"
+    description: "&7Heart of quantum machines."
+
+  # Singularity Era Materials
+  matter-stabilizer:
+    name: "&5Matter Stabilizer"
+    description: "&7Keeps unstable matter in check."
+  unstable-singularity:
+    name: "&5Unstable Singularity"
+    description: "&7Handle with extreme caution."
+
+  # Ethereal Materials
+  ether-essence:
+    name: "&f&lEther Essence"
+    description: "&7Pure light distilled."
+  chaos-shard:
+    name: "&8Chaos Shard"
+    description: "&7Fragment of entropy."
+  vibranium-crystal:
+    name: "&d&lVibranium Crystal"
+    description: "&7The strongest material known."
+  cosmic-ingot:
+    name: "&5&lCosmic Ingot"
+    description: "&7Forged from starlight and void."
+
+# ================================
+# Tools / Gadgets
+# ================================
+tool:
+  phase-shifter:
+    name: "&bQuantum Phase Shifter"
+    description: |
+      &7Teleports you 8 blocks forward.
+      &7Phases through solid walls.
+    use: "&b&lPHASE SHIFT!"
+    cooldown: "&cPhase Shifter on cooldown: &e{0}s"
+    
+  gravity-displacer:
+    name: "&bGravity Displacer"
+    description: |
+      &7Launches mobs into the air.
+      &7They land safely (mostly).
+    use: "&7Mob launched!"
+    
+  chaos-scythe:
+    name: "&8Chaos Scythe"
+    description: |
+      &7Harvests souls and crops.
+      &7Right-Click: Chaos Wave
+      
+      &cAOE Damage: &715 HP
+      &cBackfire: &75% chance
+    use: "&5&lCHAOS WAVE!"
+    backfire: "&4&lCHAOS BACKFIRES! &cYou take damage."
+    
+  vibranium-drill:
+    name: "&d&lVibranium Drill"
+    description: |
+      &7Mines a 3x3 area instantly.
+      &7Fortune V built-in.
+      
+      &eTips:
+      &8► &7Hold SHIFT to mine single block
+      &8► &7Works on all ores
+    mining: "&7Mining 3x3 area..."
+    
+  staff-of-time:
+    name: "&eStaff of Time"
+    description: |
+      &7Speed up any machine.
+      &7Right-Click a machine to accelerate.
+      
+      &cConsumes: &eEther Essence
+    use: "&eMachine accelerated!"
+    no-fuel: "&cRequires Ether Essence!"
+
+# ================================
+# Armor
+# ================================
+armor:
+  ethereal-set:
+    name: "&bEthereal Armor"
+    description: |
+      &7Tier 8 divine protection.
+      &7Set Bonus: Flight + Immunity
+    helmet: "&bEthereal Helmet"
+    chestplate: "&bEthereal Chestplate"
+    leggings: "&bEthereal Leggings"
+    boots: "&bEthereal Boots"
+
+# ================================
+# Upgrades (Miner)
+# ================================
+upgrade:
+  speed-module:
+    name: "&aSpeed Module"
+    description: |
+      &7+50% mining speed
+      &7+25% energy consumption
+  fortune-module:
+    name: "&6Fortune Module"
+    description: |
+      &7+30% rare ore chance
+  void-module:
+    name: "&5Void Module"
+    description: |
+      &7Unlocks void dimension mining
+      &7Access to legendary materials
+
+# ================================
+# Ore Rarity
+# ================================
+rarity:
+  common: "&7Common"
+  uncommon: "&aUncommon"
+  rare: "&bRare"
+  legendary: "&dLegendary"

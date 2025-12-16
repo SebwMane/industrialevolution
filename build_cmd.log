@@ -1,0 +1,38 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------< io.github.nicol.industrialevolution:IndustrialEvolution >-------
+[INFO] Building IndustrialEvolution 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ IndustrialEvolution ---
+[INFO] Deleting C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta\IndustrialEvolution\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ IndustrialEvolution ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ IndustrialEvolution ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug target 16] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ IndustrialEvolution ---
+[INFO] skip non existing resourceDirectory C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta\IndustrialEvolution\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ IndustrialEvolution ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ IndustrialEvolution ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ IndustrialEvolution ---
+[INFO] Building jar: C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta\IndustrialEvolution\target\IndustrialEvolution-1.0.0.jar
+[INFO] 
+[INFO] --- shade:3.5.0:shade (default) @ IndustrialEvolution ---
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta\IndustrialEvolution\target\IndustrialEvolution-1.0.0.jar with C:\Users\nicol\OneDrive\Escritorio\Nueva carpeta\IndustrialEvolution\target\IndustrialEvolution-1.0.0-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.719 s
+[INFO] Finished at: 2025-12-13T11:05:23-03:00
+[INFO] ------------------------------------------------------------------------

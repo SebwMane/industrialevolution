@@ -1,0 +1,29 @@
+name: IndustrialEvolution
+version: 2.1.0
+main: io.github.nicol.industrialevolution.IndustrialEvolution
+api-version: "1.20"
+depend:
+  - Slimefun
+authors:
+  - SebwMane
+description: Advanced Slimefun4 addon with Quantum, Singularity, and Ethereal Ascension tiers.
+website: https://github.com/SebwMane/IndustrialEvolution
+
+# Commands
+commands:
+  ie:
+    description: Industrial Evolution main command
+    usage: /ie [help|info|version]
+    aliases: [industrial, indevo]
+
+# Permissions
+permissions:
+  industrialevolution.*:
+    description: All Industrial Evolution permissions
+    default: true
+    children:
+      industrialevolution.use: true
+  
+  industrialevolution.use:
+    description: Use Industrial Evolution items
+    default: true
