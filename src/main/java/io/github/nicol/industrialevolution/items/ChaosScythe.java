@@ -53,13 +53,13 @@ public class ChaosScythe extends SlimefunItem {
         }
 
         if (hitCount > 0) {
-            LanguageManager.getInstance().get(p, "tools.chaos-scythe.attack");
+            p.sendMessage(LanguageManager.getInstance().get("tools.chaos-scythe.attack"));
         }
 
         // Self-Harm Risk (5%)
         if (random.nextDouble() < 0.05) {
             p.damage(10);
-            LanguageManager.getInstance().get(p, "tools.chaos-scythe.backfire");
+            p.sendMessage(LanguageManager.getInstance().get("tools.chaos-scythe.backfire"));
             p.getWorld().playSound(p.getLocation(), Sound.ENTITY_LIGHTNING_BOLT_THUNDER, 1, 1);
         }
     }
