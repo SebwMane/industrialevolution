@@ -2,9 +2,6 @@ package io.github.nicol.industrialevolution.items;
 
 import io.github.nicol.industrialevolution.IndustrialEvolution;
 import io.github.nicol.industrialevolution.setup.CategorySetup;
-import io.github.nicol.industrialevolution.items.VibraniumDrill;
-import io.github.nicol.industrialevolution.items.StaffOfTime;
-import io.github.nicol.industrialevolution.items.EtherealArmor;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;

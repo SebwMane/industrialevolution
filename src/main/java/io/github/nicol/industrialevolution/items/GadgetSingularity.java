@@ -2,7 +2,6 @@ package io.github.nicol.industrialevolution.items;
 
 import io.github.nicol.industrialevolution.IndustrialEvolution;
 import io.github.nicol.industrialevolution.setup.CategorySetup;
-import io.github.nicol.industrialevolution.items.MatterDismantler;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;

@@ -20,7 +20,6 @@ public class InfoPanel {
     private static final int ROWS = 6;
     private static final int SIZE = ROWS * 9;
 
-    private final String machineKey;
     private final String title;
     private final List<String> descriptionLines;
     private final List<InfoSection> sections;
@@ -31,7 +30,6 @@ public class InfoPanel {
      * @param machineKey The language key for the machine
      */
     public InfoPanel(String machineKey) {
-        this.machineKey = machineKey;
         this.sections = new ArrayList<>();
 
         LanguageManager lang = LanguageManager.getInstance();
