@@ -1,6 +1,8 @@
 package io.github.nicol.industrialevolution.machines;
 
+import io.github.nicol.industrialevolution.core.AbstractProcessingMachine;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import javax.annotation.Nonnull;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
