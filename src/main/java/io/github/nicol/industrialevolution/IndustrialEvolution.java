@@ -46,22 +46,23 @@ public class IndustrialEvolution extends JavaPlugin implements SlimefunAddon {
 
         // Register Tool Encantments Listener
         getServer().getPluginManager()
-                .registerEvents(new io.github.nicol.industrialevolution.items.ToolEnchantments(this), this);
+                .registerEvents(new io.github.nicol.industrialevolution.categories.items.ToolEnchantments(this), this);
 
         // Initialize Categories
         io.github.nicol.industrialevolution.setup.CategorySetup.setup(this);
 
         // Initialize Items & Machines
-        io.github.nicol.industrialevolution.items.MaterialQuantum.setup(this);
-        io.github.nicol.industrialevolution.items.GadgetQuantum.setup(this);
-        io.github.nicol.industrialevolution.items.MaterialSingularity.setup(this);
-        io.github.nicol.industrialevolution.items.GadgetSingularity.setup(this);
-        io.github.nicol.industrialevolution.items.ItemEthereal.setup(this);
-        io.github.nicol.industrialevolution.items.ToolEthereal.setup(this);
+        io.github.nicol.industrialevolution.categories.resources.ResourceItems.setup(this);
+        io.github.nicol.industrialevolution.categories.items.GadgetQuantum.setup(this);
+        io.github.nicol.industrialevolution.categories.resources.MaterialSingularity.setup(this);
+        io.github.nicol.industrialevolution.categories.items.GadgetSingularity.setup(this);
+        io.github.nicol.industrialevolution.categories.magic.ItemEthereal.setup(this);
+        io.github.nicol.industrialevolution.categories.magic.ToolEthereal.setup(this);
 
-        io.github.nicol.industrialevolution.machines.MachineQuantum.setup(this);
-        io.github.nicol.industrialevolution.machines.MachineSingularity.setup(this);
-        io.github.nicol.industrialevolution.machines.MachineEthereal.setup(this);
+        io.github.nicol.industrialevolution.categories.machines.MachineRegistry.setup(this);
+        io.github.nicol.industrialevolution.categories.machines.MachineSingularity.setup(this);
+        io.github.nicol.industrialevolution.categories.machines.MachineEthereal.setup(this);
+        io.github.nicol.industrialevolution.categories.energy.SolidFuelGenerator.setup(this);
 
         getLogger().info("✓ All items and machines registered!");
         getLogger().info("========================================");
